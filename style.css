@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.portada {
+  height: 20%;
+  width: 20%;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.portada2 {
+  width: 20%;
+  margin-left: 8%;
+  margin-top: 2px;
+}
+.ropa{
+  height: 20%;
+  width: 20%;
+  margin-top: -10px;
+}
+
+.column{
+  display:inline-flex;
+  justify-content: left;
+  align-items: center;
+}
+
+body {
+  background-image: url('./img/Tye-dye-gris-chico.jpg');
+   background-size: cover;
+}
+
+.container{
+  background-color: #171717;
+}
+.container1{
+  display:flex;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+
+.titulo{
+  color: #000000;
+  font-family: 'Nerko One', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.imagen1{
+  display: flex;
+  flex-direction: column;
+  size:20% ;
+}
+
+.containercatalogo{
+  justify-content: left;
+}
+.rrss {
+  display:inline-flex;
+  algin-items: center;
+}
